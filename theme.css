@@ -1,0 +1,19 @@
+/* SADAT high contrast: white surfaces / near-black text, dark surfaces / white text */
+:root{color-scheme:light;}
+.stApp,[data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stMain"]{background:#ffffff!important;color:#101820!important;}
+section[data-testid="stSidebar"],section[data-testid="stSidebar"]>div{background:#ffffff!important;color:#101820!important;border-right:1px solid #d6dce3;}
+.stApp p,.stApp span,.stApp label,.stApp li,.stApp small,.stApp h1,.stApp h2,.stApp h3,.stApp h4,.stApp h5,.stApp h6,.stApp [data-testid="stCaptionContainer"],.stApp [data-testid="stMetricLabel"],.stApp [data-testid="stMetricValue"],.stApp [data-testid="stMarkdownContainer"]{color:#101820;}
+.stApp [data-testid="stCaptionContainer"],.hero p{color:#253342!important;}
+[data-testid="stMetric"],[data-testid="stForm"],[data-testid="stVerticalBlockBorderWrapper"], [data-baseweb="select"]>div{background:#ffffff!important;border-color:#c8d0d9!important;border-radius:12px;}
+.hero{background:#ffffff!important;border:1px solid #c8d0d9;border-radius:16px;padding:28px;margin-bottom:22px;}
+.hero h1,.hero small{color:#101820!important;}.hero p{color:#253342!important;}
+.stApp input,.stApp textarea,.stApp [data-baseweb="input"]>div,.stApp [data-baseweb="textarea"]>div{background:#ffffff!important;color:#101820!important;border-color:#929eac!important;}
+.stApp input::placeholder,.stApp textarea::placeholder{color:#475569!important;opacity:1!important;}
+.stApp input,.stApp textarea{caret-color:#101820!important;}
+.stApp button[kind="primary"],.stApp button[data-testid="stBaseButton-primary"]{background:#14263b!important;border:1px solid #14263b!important;color:#ffffff!important;border-radius:10px;}
+.stApp button[kind="primary"] *, .stApp button[data-testid="stBaseButton-primary"] *{color:#ffffff!important;}
+.stApp button[kind="secondary"],.stApp button[data-testid="stBaseButton-secondary"]{background:#ffffff!important;color:#101820!important;border:1px solid #778597!important;}
+.stApp button[kind="secondary"] *, .stApp button[data-testid="stBaseButton-secondary"] *{color:#101820!important;}
+.stApp [role="alert"],.stApp [data-testid="stAlert"]{color:#101820;}
+.stApp [data-testid="stAlert"] p,.stApp [data-testid="stAlert"] span{color:#101820!important;}
+.stApp :focus-visible{outline:3px solid #1b5791!important;outline-offset:2px;}

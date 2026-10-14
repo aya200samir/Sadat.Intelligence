@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Local student records / private config
+*.sqlite3
+*.sqlite3-*
+*.db
+.streamlit/secrets.toml
+.env
+.env.*
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
